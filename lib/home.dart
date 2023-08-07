@@ -35,8 +35,9 @@ class _MyHomePageState extends State<MyHomePage> {
     else if (value=='='){
       if(input.isNotEmpty){
         var userInput = input;
-        userInput = input.replaceAll('×', '*');
-        userInput = input.replaceAll('÷', '/');
+        userInput = userInput.replaceAll('÷', '/');
+        userInput = userInput.replaceAll('×', '*');
+
         Parser p = Parser();
         Expression e = p.parse(userInput);
         ContextModel cm = ContextModel();
