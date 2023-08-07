@@ -1,6 +1,6 @@
 # calculator
 
-A new Flutter project.
+This Calculator App is a user-friendly mobile application developed using the Flutter framework. It serves as a powerful tool for performing basic arithmetic calculations, all wrapped up in an intuitive and visually appealing interface.
 
 ## Getting Started
 
